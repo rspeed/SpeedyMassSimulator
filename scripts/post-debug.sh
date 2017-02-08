@@ -22,11 +22,11 @@
 # After-build script which updates the resources in a local copy of KSP.
 
 
-PREFIX="../KSP/GameData/SpeedyMassSimulator"
-TARGET_FILE="$2"
+PREFIX="$1"
+PLUGIN="$2"
 
 # Copy the dll
-cp "${TARGET_FILE}" "${PREFIX}/Plugins"
+cp "${PLUGIN}" "${PREFIX}/Plugins"
 
 # Build the part configuration files
 python scripts/build-parts.py parts/parts.cfg parts/template.cfg --prefix "${PREFIX}"
