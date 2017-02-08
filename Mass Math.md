@@ -49,6 +49,8 @@ Stacks: 1 ^ 2 = 1
 
 Mass: 1 * 1 = 5 tons
 
+hole width: 46cm
+
 
 ## Small (20t)
 
@@ -60,6 +62,8 @@ Stack Side: 84.85281374 / 42 = 2.020305089
 Stacks: 2 ^ 2 = 4
 
 Mass: 4 * 5 = 20 tons
+
+hole width: 88cm
 
 
 ## Large (120t)
@@ -77,6 +81,8 @@ sqrt((5 * 42) ^ 2 + (2 * 42) ^ 2) = 187.8297101 cm
 
 5 x 2 blocks is possible, therefore there's room for an additional 8 stacks
 
+hole width: 4 * 42 + 4 = 172
+
 
 ## Jumbo (240t)
 
@@ -89,6 +95,7 @@ Stacks: 6 ^ 2 = 36
 
 Mass: 36 * 5 = 180 tons
 
+Hole width: 6 * 42 + 4 = 256
 
 
 sqrt((8 * 42) ^ 2 + (3 * 42) ^ 2) = 358.8481573 cm
